@@ -168,7 +168,7 @@ You have to write the code depending on the requirement
 7. Call the `getAverageAge` method of `Person` and pass the `personArray` array to get the average age of the `Person` objects in the array.
 
 ## 10. CALL(), APPLY(), BIND() 
-###10.1 Using CALL()
+##10.1 Using CALL()
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -176,7 +176,7 @@ You have to write the code depending on the requirement
 2. Define an object with a property that will be used as the value of `this`.
 3. Invoke the function using the `call()` method and pass the object as the first argument.
 
-###10.2 Using APPLY( )
+##10.2 Using APPLY( )
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -184,7 +184,7 @@ You have to write the code depending on the requirement
 2. Define an array of values that will be passed to the function as arguments.
 3. Invoke the function using the `apply()` method and pass `null` as the value of `this` and the `array` of arguments as the second argument.
 
-###10.3 Using BIND( )
+##10.3 Using BIND( )
 You have to write the code depending on the requirement
 
 **Requirements:**
