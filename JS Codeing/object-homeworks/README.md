@@ -168,6 +168,7 @@ You have to write the code depending on the requirement
 7. Call the `getAverageAge` method of `Person` and pass the `personArray` array to get the average age of the `Person` objects in the array.
 
 ## 10. CALL(), APPLY(), BIND() 
+
 ##10.1 Using CALL()
 You have to write the code depending on the requirement
 
