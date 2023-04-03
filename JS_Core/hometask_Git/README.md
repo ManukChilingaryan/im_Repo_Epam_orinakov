@@ -1,4 +1,4 @@
-#First task#
+# First task #
 1.Install git and generate a pair of ssh keys. Authorize the public key on github.com.
 2.Specify your user.name and user.email in git.
 3.Create a new repository on github.com and clone it locally to your computer.
@@ -8,7 +8,7 @@
 7.Using the github's web interface, add the second half of the lyrics and make a commit with the name "finish my song".
 8.Make a pull in the local repository and make sure that the commit you created on github is pulled up and you have all the lyrics.
 
-#Second task#
+# Second task #
 This task is performed immediately after the previous one .
 1. Create a feature branch and add two commits to it
 2. Merge the feature branch in master
@@ -22,7 +22,7 @@ Fill the starlit sky
 Make a commit.
 5. Merge feature in master resolving the conflict: save all 4 lines in arrows.txt file in the order they were added in steps 3 and 4.
 
-#Third task#
+# Third task #
 This task is performed after the previous one (Second task).
 1. Create a storm branch and add following text to the storm.txt file:
 Twenty ships with Norsemen braves
@@ -40,7 +40,7 @@ Make a commit.
 4. Mark the commit with tag and go to the storm branch.
 5. Rebase the storm branch so that it contains the last commit from the master.
 
-#Fourth task#
+# Fourth task #
 1. Create a string branch and create a file called string.txt with the text below:
 Hello world!
 2.Make a commit called "Add Hello world to the string.txt" and send it to the string branch.
