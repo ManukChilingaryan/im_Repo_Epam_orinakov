@@ -1,12 +1,12 @@
 # First task #
-1.Install git and generate a pair of ssh keys. Authorize the public key on github.com.
-2.Specify your user.name and user.email in git.
-3.Create a new repository on github.com and clone it locally to your computer.
-4.Create a file called song.txt and put there half the text of your favorite song.
-5.Make a commit called "Add first half of my favorite song" and send it to the github.
-6.Make sure github has a song.txt file with the lyrics.
-7.Using the github's web interface, add the second half of the lyrics and make a commit with the name "finish my song".
-8.Make a pull in the local repository and make sure that the commit you created on github is pulled up and you have all the lyrics.
+1. Install git and generate a pair of ssh keys. Authorize the public key on github.com.
+2. Specify your user.name and user.email in git.
+3. Create a new repository on github.com and clone it locally to your computer.
+4. Create a file called song.txt and put there half the text of your favorite song.
+5. Make a commit called "Add first half of my favorite song" and send it to the github.
+6. Make sure github has a song.txt file with the lyrics.
+7. Using the github's web interface, add the second half of the lyrics and make a commit with the name "finish my song".
+8. Make a pull in the local repository and make sure that the commit you created on github is pulled up and you have all the lyrics.
 
 # Second task #
 This task is performed immediately after the previous one .
@@ -43,14 +43,14 @@ Make a commit.
 # Fourth task #
 1. Create a string branch and create a file called string.txt with the text below:
 Hello world!
-2.Make a commit called "Add Hello world to the string.txt" and send it to the string branch.
-3.Add the second line to the file:
+2. Make a commit called "Add Hello world to the string.txt" and send it to the string branch.
+3. Add the second line to the file:
 Second line.
-4.Make a commit called "Add another line to the string.txt" 
-5.Update commit message using --amend to the "Add the second line to the string.txt file".
-6.Use reflog to see the history of your commits and remember the hash number of your latest commit
-7.Undoing the latest commit using soft reset
-8.Make sure the second line is still displaying in the string.txt file.
-9.Stashing your changes.
-10.Make sure your latest changes have disappeared
-11.Bring back your changes, make a commit and send it to the string branch
+4. Make a commit called "Add another line to the string.txt" 
+5. Update commit message using --amend to the "Add the second line to the string.txt file".
+6. Use reflog to see the history of your commits and remember the hash number of your latest commit
+7. Undoing the latest commit using soft reset
+8. Make sure the second line is still displaying in the string.txt file.
+9. Stashing your changes.
+10. Make sure your latest changes have disappeared
+11. Bring back your changes, make a commit and send it to the string branch
