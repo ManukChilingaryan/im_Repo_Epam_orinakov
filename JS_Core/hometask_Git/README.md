@@ -9,7 +9,7 @@
 8. Make a pull in the local repository and make sure that the commit you created on github is pulled up and you have all the lyrics.
 
 # Second task #
-This task is performed immediately after the previous one .
+### This task is performed immediately after the previous one . ###
 1. Create a feature branch and add two commits to it
 2. Merge the feature branch in master
 3. Return to feature and create the arrows.txt file with the following contents:
@@ -23,7 +23,7 @@ Make a commit.
 5. Merge feature in master resolving the conflict: save all 4 lines in arrows.txt file in the order they were added in steps 3 and 4.
 
 # Third task #
-This task is performed after the previous one (Second task).
+### This task is performed after the previous one (Second task). ###
 1. Create a storm branch and add following text to the storm.txt file:
 Twenty ships with Norsemen braves
 Riding the northern wind
