@@ -23,9 +23,9 @@ For each tasks do the following action to make it reachable mentors for verifica
 1. Git Checkout to main branch locally
 
 2. Git Pull latest version of main branch
-3. Create new brench using ```**<name-surname-hometask[ID]>**``` pattern for naming
+3. Create new brench using ```**<name-surname>-hometask<ID>**``` pattern for naming
 4. Do your homework inside dedicated directory. 
-   * **Example:** ```/JS Coding/<name-surname/hometask1>```
+   * **Example:** ```/JS Coding/hometask_<ID>_<moduleName>/<name-surname>```
 6. Git add your files you worked with
 7. Git commit your changes
 8. Git push your changes
