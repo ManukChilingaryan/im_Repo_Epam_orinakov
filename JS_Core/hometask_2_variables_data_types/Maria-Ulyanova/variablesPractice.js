@@ -3,7 +3,6 @@ console.log(someName); //Maria
 
 const surname = "Ulyanova";
 someName = surname;
-// someName = "Ulyanova";
 console.log(someName); //Ulyanova
 
 const favoriteNumber = 8;
