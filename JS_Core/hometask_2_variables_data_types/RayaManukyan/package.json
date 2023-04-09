@@ -1,0 +1,12 @@
+{
+  "name": "rayamanukyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RayaManukyan.js",
+  "scripts": {
+    "test": "node RayaManukyan.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
