@@ -1,8 +1,8 @@
 const myFavoriteNumber = 8;
-console.log(typeof myFavoriteNumber);
+console.log(typeof myFavoriteNumber); //number
 
 const strConver = toString(myFavoriteNumber);
-console.log(typeof strConver);
+console.log(typeof strConver); //string
 
-let backToNumber = +strConver;
-console.log(typeof backToNumber);
+const backToNumber = +strConver;
+console.log(typeof backToNumber); //number

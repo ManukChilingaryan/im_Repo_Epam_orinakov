@@ -1,17 +1,17 @@
 let someName =  "Maria";
-console.log(someName);
+console.log(someName); //Maria
 
 const surname = "Ulyanova";
 someName = surname;
 // someName = "Ulyanova";
-console.log(someName);
+console.log(someName); //Ulyanova
 
 const favoriteNumber = 8;
 const division = favoriteNumber / 2;
 
-const michaelsFavorite = 13;
+let michaelsFavorite = 13;
 
 michaelsFavorite = 7;
 
 const result = michaelsFavorite - division;
-console.log(result);
+console.log(result); //3
