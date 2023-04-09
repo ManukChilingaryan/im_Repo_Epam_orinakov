@@ -1,6 +1,6 @@
 const carName = "Volvo";
 
-let years = 50;
+const years = 50;
 
 let x = 5;
 let y = 10;
