@@ -1,6 +1,6 @@
-let numberOfChildren = 3
-let partnerName = "Arsen"
-let geographicLocation = "Yerevan"
-let jobTitle = "Programmer"
+const numberOfChildren = 3;
+const partnerName = "Arsen";
+const geographicLocation = "Yerevan";
+const jobTitle = "Programmer";
 
-console.log(`You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`)
+console.log(`You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`);
