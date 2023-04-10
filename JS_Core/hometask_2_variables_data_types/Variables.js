@@ -10,5 +10,6 @@ console.log(dividedNum);
 
 let michaelsFavorite = 13;
 michaelsFavorite = 7;
-let subNum = michaelsFavorite - dividedNum;
+
+const subNum = michaelsFavorite - dividedNum;
 console.log(subNum);
