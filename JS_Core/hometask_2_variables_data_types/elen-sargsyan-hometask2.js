@@ -1,34 +1,34 @@
 //Beginner Practice
-let carName = 'Volvo';
-let years = 50;
-let x = 5;
-let y = 10;
-console.log(x+y);
-let z = x + y;
+const carName = 'Volvo';
+const years = 50;
+const x = 5;
+const y = 10;
+console.log(x + y);
+const z = x + y;
 console.log(z);
-let firstName = "John"; const lastName = "Doe"; const age = 35;
-let a = 10;
-let b = 5;
-console.log(a*b);
+const firstName = "John", lastName = "Doe", age = 35;
+const a = 10;
+const b = 5;
+console.log(a * b);
 
 
 //The Fortune Teller
-let numChildren = 3
-let partnerName = "W"
-let geogLoc = "Amsterdam"
-let jobTitle = "freelancer";
+const numChildren = 3
+const partnerName = "W"
+const geogLoc = "Amsterdam"
+const jobTitle = "freelancer";
 
 console.log(`You will be a ${jobTitle} in ${geogLoc}, and married to ${partnerName} with ${numChildren} kids.`)
 
 
 //Data type practice
-let favoriteNum = 4;
+const favoriteNum = 4;
 console.log(typeof(favoriteNum)); //number
 
-let stringNum = toString(favoriteNum);
+const stringNum = toString(favoriteNum);
 console.log(typeof(stringNum));  //string
 
-let backNum = Number(stringNum);
+const backNum = Number(stringNum);
 console.log(typeof(backNum));  //number
 
 //Variables Practice
@@ -45,7 +45,7 @@ console.log(favoriteNumber); //2
 let michaelsFavorite = 13;
 michaelsFavorite = 7;
 
-console.log(michaelsFavorite-favoriteNumber); //5
+console.log(michaelsFavorite - favoriteNumber); //5
 
 //Type prediction
 console.log(typeof(15)); //number
