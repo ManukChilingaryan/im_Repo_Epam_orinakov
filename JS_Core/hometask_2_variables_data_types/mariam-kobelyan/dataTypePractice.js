@@ -1,11 +1,12 @@
 //1
-let favNum = 7
-console.log(typeof(favNum))
+const favNum = 7;
+console.log(typeof(favNum));
 
 //2
-let favNumStr = favNum.toString()
-console.log(typeof(favNumStr))
+const favNumStr = favNum.toString();
+console.log(typeof(favNumStr));
 
 //3
-let strToNum = Number(favNumStr)
-console.log(typeof(strToNum))
+const strToNum = Number(favNumStr);
+console.log(typeof(strToNum));
+typeof favNum;
