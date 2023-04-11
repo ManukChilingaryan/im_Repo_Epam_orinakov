@@ -9,4 +9,4 @@ const divided = favoriteNumber / 2;
 const michaelsFavorite  = 13;
 michaelsFavorite  = 7;
 
-console.olog(michaelsFavorite - divided);
+console.log(michaelsFavorite - divided);
