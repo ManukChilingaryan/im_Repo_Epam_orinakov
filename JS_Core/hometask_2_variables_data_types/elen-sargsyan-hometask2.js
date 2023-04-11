@@ -25,7 +25,7 @@ console.log(`You will be a ${jobTitle} in ${geogLoc}, and married to ${partnerNa
 const favoriteNum = 4;
 console.log(typeof(favoriteNum)); //number
 
-const stringNum = toString(favoriteNum);
+const stringNum = String(favoriteNum);
 console.log(typeof(stringNum));  //string
 
 const backNum = Number(stringNum);
