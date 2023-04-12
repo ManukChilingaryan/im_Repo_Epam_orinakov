@@ -1,0 +1,12 @@
+{
+  "name": "hometask_2_variables_data_types",
+  "version": "1.0.0",
+  "description": "1. Create a variable called carName, assign the value Volvo to it.\r 2. Create a variable called years, assign the value 50 to it.\r 3. Log the sum of 5 + 10, using two variables: x and y.\r 4. Create a variable called z, assign x + y to it, and Log the result in console.\r 5. On one single line, declare three variables with the following names and values:\r firstName = \"John\", lastName = \"Doe\", age = 35\r 6. Create 2 variables, assign to them values 10 and 5, log to console the value of their multiplication.",
+  "main": "elen-sargsyan-hometask2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
