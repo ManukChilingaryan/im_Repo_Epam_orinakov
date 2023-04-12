@@ -9,4 +9,3 @@ console.log(typeof(favNumStr));
 //3
 const strToNum = Number(favNumStr);
 console.log(typeof(strToNum));
-typeof favNum;
