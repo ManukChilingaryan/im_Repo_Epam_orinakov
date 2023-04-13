@@ -104,7 +104,6 @@ console.log(typeof(true)); //boolean
 console.log(typeof(1 != 2)); //boolean
 console.log(typeof(2n)); //bigint
 
-
 //Type conversions
 console.log(Number(" 123 ")); //123
 console.log(Number(true)); //1
