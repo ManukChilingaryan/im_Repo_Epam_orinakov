@@ -19,20 +19,15 @@ console.log(x + y);
 const z = x + y;
 console.log(z);
 
-
 // 5. On one single line, declare three variables with the following names and values: firstName = "John", lastName = "Doe", age = 35
 
-const firstName = "John",
-  lastName = "Doe",
-  age = 35;
+const firstName = "John", lastName = "Doe", age = 35;
 
 // 6. Create 2 variables, assign to them values 10 and 5, log to console the value of their multiplication.
 
 const variable1 = 10;
 const variable2 = 5;
 console.log(variable1 * variable2);
-
-
 
 // The Fortune Teller
 
@@ -42,7 +37,6 @@ const childNum = 3;
 const partnersName = "John";
 const geoLoc = "Italy";
 const job = "Software Test Automation Engineer";
-
 
 // 2. Output your fortune to the screen like so: "You will be a X in Y, and married to with N kids."
 
@@ -101,60 +95,23 @@ michaelsFavorite = 7;
 
 console.log(michaelsFavorite - divFavoriteNumber);
 
-    /* Type prediction
-     What is the output of each of the expressions below ?
+//Type prediction
+console.log(typeof(15)); //number
+console.log(typeof(5.5)); //number
+console.log(typeof(NaN)); //number
+console.log(typeof("hello")); //string
+console.log(typeof(true)); //boolean
+console.log(typeof(1 != 2)); //boolean
+console.log(typeof(2n)); //bigint
 
-    1. typeof(15) 
-      output: number
-      
-    2. typeof(5.5)
-    output: number
 
-    3. typeof(NaN)
-    output: number
-
-    4. typeof("hello")
-    output: string
-
-    5. typeof(true)
-    output: boolean 
-
-    6. typeof(1 != 2)
-    output: boolean
-
-    7. typeof(2n)
-    output: bigint
-
-    */
-
-    /*Type conversions
-
-    What is the output of each of the expressions below ?
-
-    1. console.log(Number(" 123 "))
-    output: 123 // number
-
-    2. console.log(Number(true))
-    output: 1 // number
-
-    3. console.log(Number(false))
-    output: 0 // number
-
-    4. console.log(Boolean(1))
-    output: true // boolean
-
-    5. console.log(Boolean(0))
-    output: false// boolean
-
-    6. console.log(Boolean(""))
-    output: false// boolean
-
-    7. console.log(Boolean(" "))
-    output: true// boolean
-
-    8. console.log(1 / 0)
-    output: infinity // number
-
-    9. console.log(1 / 'name')
-    output: NaN // number
-    */
+//Type conversions
+console.log(Number(" 123 ")); //123
+console.log(Number(true)); //1
+console.log(Number(false)); //0
+console.log(Boolean(1)); //true
+console.log(Boolean(0)); //false
+console.log(Boolean("")); //false
+console.log(Boolean(" ")); //true
+console.log(1/0); //infinity
+console.log(1/'name'); //NaN
