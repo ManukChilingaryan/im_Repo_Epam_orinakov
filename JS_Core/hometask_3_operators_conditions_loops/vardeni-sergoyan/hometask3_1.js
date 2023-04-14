@@ -1,7 +1,7 @@
 //1. Reverse the following string word by word, the first word will be the last and so on. using loop
 
-function reverseString(s) {
-    const arr = mySplit(s, " ");
+function reverseString(str) {
+    const arr = mySplit(str, " ");
     let result = " ";
     let start = 0, end = arr.length - 1;
     while(start <= end) {
@@ -40,5 +40,5 @@ function mySplit(str, separator) {
     return temp;
 }
   
-  const s = "the sky is blue";
-  console.log(reverseString(s));
+  const str = "the sky is blue";
+  console.log(reverseString(str));

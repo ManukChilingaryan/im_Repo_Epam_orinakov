@@ -1,9 +1,9 @@
 //6. Write a JavaScript program to construct the following pattern, using a nested for loop.
 
-let i, j;
+let rowNumber, colNumber;
 let c = "";
-for(let i = 0; i < 5; i++){
-    for (let j = 0; j <= i; j++){
+for(let rowNumber = 0; rowNumber < 5; rowNumber++){
+    for (let colNumber = 0; colNumber <= rowNumber; colNumber++){
         c = c + "*" + " ";        
     }
     console.log(c); 

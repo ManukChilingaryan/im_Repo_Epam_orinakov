@@ -1,32 +1,32 @@
 //3. Console to log the MINIMUM change required to make it a strong password. 
 //If it's already strong, return 0. A password is considered strong if all the following conditions are met:
 
-function checkUpperCase(pw) {
-    for(let i = 0; i < pw.length; i++) {
-        if(pw[i].charCodeAt(0) >= 65 && pw[i].charCodeAt(0) <= 96)
+function checkUpperCase(password) {
+    for(let i = 0; i < password.length; i++) {
+        if(password[i].charCodeAt(0) >= 65 && password[i].charCodeAt(0) <= 96)
             return true;
     }
     return false;
 }
 
-function checkLowerCase(pw) {
-    for(let i = 0; i < pw.length; i++) {
-        if(pw[i].charCodeAt(0) >= 97 && pw[i].charCodeAt(0) <= 122){
+function checkLowerCase(password) {
+    for(let i = 0; i < password.length; i++) {
+        if(password[i].charCodeAt(0) >= 97 && password[i].charCodeAt(0) <= 122){
             return true;
         }
     }
     return false;
 } 
 
-function checkNumber(pw) {
-    for(let i = 0; i < pw.length; i++) {
-        if(Number(pw[i]))
+function checkNumber(password) {
+    for(let i = 0; i < password.length; i++) {
+        if(Number(password[i]))
             return true;
     }
     return false;
 }
 
-function checkStrong(pw) {
+function checkStrong(password) {
     let change = 0;
 
     //first condition-y amenaverjum em grel, vorovhetev 3rd u arajin conditionneri jamanak es ham change-eri tivn em avelacnum, ham el length-n 
@@ -34,36 +34,36 @@ function checkStrong(pw) {
     //mijakayjqy
 
     //third condition
-    let length = pw.length;
-    let i = 0, j, count = 0;
-    while(i < pw.length) {
-        j = pw[i];
-        count = 0;
-        if(pw[i + 1] == j) {
-           while(pw[i] == j){
-               count++;
-               i++;
+    let length = password.length;
+    let i = 0, j, countOfReapetedCharacters = 0;
+    while(i < password.length) {
+        j = password[i];
+        countOfReapetedCharacters = 0;
+        if(password[i + 1] == j) {
+            while(password[i] == j){
+                countOfReapetedCharacters++;
+                i++;
             }
         }
-        if(count >= 3) {
-            length -= count - 2;
-            change += count -2;
+        if(countOfReapetedCharacters >= 3) {
+            length -= countOfReapetedCharacters - 2;
+            change += countOfReapetedCharacters -2;
         }
         i++;
     }
 
     //second condition
-    if(!checkUpperCase(pw)) {
+    if(!checkUpperCase(password)) {
         change += 1;
         length += 1;
     }
 
-    if(!checkLowerCase(pw)) { 
+    if(!checkLowerCase(password)) { 
         change += 1;
         length += 1;
     }
 
-    if(!checkNumber(pw)) {
+    if(!checkNumber(password)) {
         change += 1;
         length += 1;
     }
@@ -85,5 +85,4 @@ function checkStrong(pw) {
 console.log(checkStrong("ULTRAstrongP455w0rdthatstoolong"));
 console.log(checkStrong("1234ABCD"));
 console.log(checkStrong("passAword123B!2%##4"));
-console.log(checkStrong("Arewehumanorarewecoders?"));
 console.log(checkStrong("Arewehumanorarewecoders?"));
