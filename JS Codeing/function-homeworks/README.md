@@ -1,6 +1,6 @@
 #JAVASCRIPT FUNCTIONS HOMEWORKS
 ## 1. WHAT IS WRONG IN THE FUNCTION
-You should find a bug and fix it in the function that interferes works
+You should find a bug and fix it in the function that interferes works.
 
 ```ruby
 const foo = function (a, b) {
@@ -56,9 +56,9 @@ Use ordinal numbers to tell their position.
 ## 6. STRING IS A PALINDROME
 Write a function that returns a boolean value based on whether the input string is palindrome or not.
 
-* **```console.log(findPalindrome("bannana")) ➞ //false```**
-* **```console.log(findPalindrome("racecar")) ➞ //true```**
-* **```console.log(findPalindrome("madam")) ➞ //true```**
+* **```console.log(findPalindrome("bannana")) ➞ // false```**
+* **```console.log(findPalindrome("racecar")) ➞ // true```**
+* **```console.log(findPalindrome("madam")) ➞ // true```**
 
 ## 7. COUNT OF A LETTER IN A STRING
 Write a function that takes two arguments, firs text and second letter. Find count of letter in given text and return count.
@@ -95,7 +95,7 @@ You have to write the code depending on the requirement
 5. The `callback` function should log the sum to the console.
 
 ## 11. CALLBACK FUNCTION - LEVEL 2
-You have to write the code depending on the requirement
+You have to write the code depending on the requirement.
 
 #### Requirements:
 1. Define a function called `applyCallbackToArray` that takes two parameters: an array of numbers and a `callback` function.
@@ -106,7 +106,7 @@ You have to write the code depending on the requirement
 6. After the loop is complete, return the `result` array.
 
 ## 12. RECURSION FUNCTION 
-You have to write the code depending on the requirement
+You have to write the code depending on the requirement.
 
 #### Requirements:
 The function should take a single argument, a positive integer n, which represents the number to calculate the factorial using recursion.
@@ -115,19 +115,18 @@ The function should take a single argument, a positive integer n, which represen
 * **```factorial(1) should return 1```**
 * **```factorial(0) should return 1```**
 
-## 13. HARD TASK
-You have to write the code depending on the requirement
+## 13. Bonus TASK (optional)
+You have to write the code depending on the requirement.
 
 #### Requirements:
 
 1. Have the function `StringChallenge(str)` read str which will contain two strings separated by a space.
 2. The first string will consist of the following sets of characters: `+, *,` and `(N)` which is optional.
-3. The plus `(+)` character represents a single alphabetic character, the asterisk ( * represents a sequence of the same character of length 3 unless it is followed by {N] which represents how many characters should appear in the sequence where N will be at least 1.
-4. Your goal is to determine if the second string exactly matches the pattern of the first string in the input.
+3. The plus `(+)` character represents a single alphabetic character, the asterisk ( * represents a sequence of the same character of length 3 unless it is followed by {N} which represents how many characters should appear in the sequence where N will be at least 1.
+4. Your goal is to determine if the second string exactly matches or not the pattern of the first string in the input.
 
 **FOR EXAMPLE**
 
-if str is `“+**(5} gheeeee”` then the second string in this case does match the pattern,
-so your program should return the string `true`.
-If the second string does not match the pattern
-your program should return the string `false`.
+If `str` is `“+**(5} gheeeee”` then the second string in this case matches the pattern, so your program should return the string `true`.
+
+If `str` is `“+**(5} gheeee”` then the second string does not match the pattern, your program should return the string `false`.
