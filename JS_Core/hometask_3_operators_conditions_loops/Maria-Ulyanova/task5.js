@@ -1,23 +1,15 @@
-const word1 = "legolas"; //l
-const word2 = "Gandalf"; //a
-const word3 = "Balrog"; //-1
-const word4 = "Isildur"; //-1
-
-const words = [word1, word2, word3, word4];
+const words = ["legolas", "Gandalf", "Balrog", "Isildur"];
 
 // Iterate over each word in the array.
 for (let i = 0; i < words.length; i++) {
-  let word = words[i];
   let isRepeated = false;
 
    // Iterate over each character in the current word.
-  for (let j = 0; j < word.length; j++) {
-    let char = word[j];
-
+  for (let j = 0; j < words[i].length; j++) {
     // Compare the current character to all subsequent characters in the word.
-    for (let k = j + 1; k < word.length; k++) {
-      if (char === word[k]) {
-        console.log(char);
+    for (let k = j + 1; k < words[i].length; k++) {
+      if (words[i][j] === words[i][k]) {
+        console.log(words[i][j]);
         isRepeated = true;
         break;
       };
@@ -34,3 +26,4 @@ for (let i = 0; i < words.length; i++) {
     console.log(-1);
   };
 };
+
