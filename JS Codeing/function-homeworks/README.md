@@ -77,10 +77,10 @@ Write a JavaScript function that returns a passed string with letters in alphabe
 Write a function which will draw a pyramid. Function should receive a number as parameter and draw a pyramid with given number of raws. Pyramid should be presented as in the example below:
 
 ```ruby
-* 
-* * 
-* * * 
-* * * * 
+    * 
+   * * 
+  * * * 
+ * * * * 
 * * * * * 
 ```
 
