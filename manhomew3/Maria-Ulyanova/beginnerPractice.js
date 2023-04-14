@@ -14,3 +14,6 @@ const firstName = "John", lastName = "Doe", age = 35;
 const firstNumber = 10;
       secondNumber = 5;
         console.log(firstNumber * secondNumber); //50
+
+
+///some addition of function
