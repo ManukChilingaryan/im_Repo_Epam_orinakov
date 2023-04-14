@@ -130,3 +130,17 @@ You have to write the code depending on the requirement.
 If `str` is `“+**(5} gheeeee”` then the second string in this case matches the pattern, so your program should return the string `true`.
 
 If `str` is `“+**(5} gheeee”` then the second string does not match the pattern, your program should return the string `false`.
+
+**USEFUL LINKS**
+
+[Function Basics](https://javascript.info/function-basics)
+
+[W3: Functions](https://www.w3schools.com/js/js_functions.asp)
+
+[MDN: Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+[Simple Examples](https://www.programiz.com/javascript/function)
+
+[Online Exercises - Level1](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_functions1)
+
+[Online Practice Test](https://edabit.com/challenge/ARr5tA458o2tC9FTN)
