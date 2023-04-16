@@ -52,12 +52,12 @@ console.log(typeof(favNum));
 
 // 2. Then, create a new variable converting the previous variable to a string.Check the data type again.
 
-const strFavNum = "" + favNum;
+const strFavNum = "" + favNum; //const strFavNum = String(favNum);
 console.log(typeof(strFavNum));
 
 // 3. Create a third variable, converting this string variable back to a number.Check the data type one more time.
 
-const numStrFavNum = +strFavNum;
+const numStrFavNum = +strFavNum; //const numStrFavNum = Number(strFavNum);
 console.log(typeof(numStrFavNum));
 
 //Variables Practice
