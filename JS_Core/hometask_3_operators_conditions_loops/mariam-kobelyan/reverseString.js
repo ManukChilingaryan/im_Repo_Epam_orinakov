@@ -4,12 +4,12 @@ const str = 'the sky is blue';
 
 let revStr =''; // variable for reversed string
 
-let strWordsArr = []; // array for pushing seperated words of string
+const strWordsArr = []; // array for pushing seperated words of string
 
 let strWord = '';  
 
     for(let i = 0; i < str.length; i++) { 
-        if(str[i] != ' ') {
+        if(str[i] !== ' ') {
           strWord += str[i];
          } else if (strWord.trim()){ 
           strWordsArr.push(strWord);

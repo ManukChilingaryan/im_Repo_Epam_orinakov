@@ -36,3 +36,27 @@ console.log(isIsogram(str2));
 console.log(isIsogram(str3));
 console.log(isIsogram(str4));
 console.log(isIsogram(str5));
+
+// don't want to remove the old version
+
+function isStrIsogram (str) {
+    str = str.toLowerCase();
+    let countOfLetter = 0;
+    for (let i = 0; i < str.length; i++) {
+        for (let j = i+1; j < str.length; j++) {
+            if (str[i] === str[j]) {
+                countOfLetter++;
+            }
+        } 
+            if (countOfLetter >= 1) {
+                return 'The word is not isogram'
+            }
+    }
+    return 'The word is isogram'
+}
+
+console.log(isStrIsogram(str1));
+console.log(isStrIsogram(str2));
+console.log(isStrIsogram(str3));
+console.log(isStrIsogram(str4));
+console.log(isStrIsogram(str5));

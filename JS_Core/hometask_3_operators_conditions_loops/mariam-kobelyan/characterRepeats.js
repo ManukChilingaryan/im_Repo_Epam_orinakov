@@ -23,7 +23,7 @@ function countOfLetter (str, letter) {
 function isRepeating (str) {
     for (let i = 0; i < str.length; i++) {
         if (countOfLetter(str, str[i]) > 1) {
-            return str [i];
+            return str[i];
         }
     }
     return '-1';
@@ -33,3 +33,25 @@ console.log(isRepeating(str1));
 console.log(isRepeating(str2));
 console.log(isRepeating(str3));
 console.log(isRepeating(str4));
+
+// don't want to remove the old version
+
+function isCahrRepeating (str) {
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        for (let j = i+1; j < str.length; j++) {
+            if (str[i] === str[j]) {
+                count++;
+            }
+        } 
+            if (count >= 1) {
+                return str[i]
+            }
+    }
+    return '-1'
+}
+
+console.log(isCahrRepeating(str1));
+console.log(isCahrRepeating(str2));
+console.log(isCahrRepeating(str3));
+console.log(isCahrRepeating(str4));
