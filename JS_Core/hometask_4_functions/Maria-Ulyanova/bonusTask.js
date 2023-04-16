@@ -20,10 +20,10 @@ function StringChallenge(str) {
 
   while (i < str1.length) {
     if (str1[i] === '+') {
-      if (!symbols.test(str2[0])) {   // Check if the first character of str2 is a letter
+      if (!symbols.test(str2[0])) {   
         return false;
       }
-      str2 = str2.slice(1);  // Remove the matched character from the start of str2
+      str2 = str2.slice(1);  
     }
     else if (str1[i] === '*') {
       let j = 1, k = 0;
@@ -37,10 +37,10 @@ function StringChallenge(str) {
        }
 
        while (j <= k) {
-        if (!symbols.test(str2[0])) {  // Check if the first character of str2 is a letter
+        if (!symbols.test(str2[0])) {  
           return false;
         }
-        str2 = str2.slice(1); str2 = str2.slice(1); // Remove the matched character from the start of str2
+        str2 = str2.slice(1); 
         j++;
        }
        continue;
