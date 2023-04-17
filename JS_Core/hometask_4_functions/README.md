@@ -129,7 +129,7 @@ You have to write the code depending on the requirement.
 
 If `str` is `“+++++* abcdemmmmmm”` then the second string in this case matches the pattern, so your program should return the string `false`.
 
-If `str` is `“**+*{5} mmmrrrkbb”` then the second string does not match the pattern, your program should return the string `true`.
+If `str` is `“**+*{2} mmmrrrkbb”` then the second string does not match the pattern, your program should return the string `true`.
 
 **USEFUL LINKS**
 
