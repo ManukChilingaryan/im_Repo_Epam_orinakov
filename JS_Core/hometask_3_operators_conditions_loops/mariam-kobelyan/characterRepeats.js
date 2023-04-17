@@ -16,7 +16,7 @@ function countOfLetter (str, letter) {
         }
     }
     return count;
-}
+};
 
 // if the count of the letter in the string bigger than 1, we are returning the letter, if the count is < 1, returning '-1'
 
@@ -27,7 +27,7 @@ function isRepeating (str) {
         }
     }
     return '-1';
-}
+};
 
 console.log(isRepeating(str1));
 console.log(isRepeating(str2));
@@ -37,19 +37,15 @@ console.log(isRepeating(str4));
 // don't want to remove the old version
 
 function isCahrRepeating (str) {
-    let count = 0;
     for (let i = 0; i < str.length; i++) {
         for (let j = i+1; j < str.length; j++) {
             if (str[i] === str[j]) {
-                count++;
+                return str[i];
             }
         } 
-            if (count >= 1) {
-                return str[i]
-            }
     }
-    return '-1'
-}
+    return '-1';
+};
 
 console.log(isCahrRepeating(str1));
 console.log(isCahrRepeating(str2));

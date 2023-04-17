@@ -23,23 +23,14 @@ function passChangeCount(pass) {
         } else if (pass[i] === pass[i].toLowerCase()) {
             lowerCase = true;
         } 
-        if (pass[i] == +pass[i]) { 
+        if (+pass[i] === +pass[i]) { 
             digit = true;
-        } else if (pass[i] === pass[i + 1] === pass[i + 2]) {
-            noCharInRow = true
+        } else if (pass[i] === pass[i + 1] && pass[i] === pass[i + 2]) {
+            noCharInRow = true;
         }
     }
 
-    if (!upperCase) {
-        count++;
-    }
-    if (!lowerCase) {
-        count++;
-    }
-    if (!digit) {
-        count++;
-    }
-    if (noCharInRow) {
+    if (!upperCase || !lowerCase || !digit || noCharInRow) {
         count++;
     }
     if (pass.length < 8) {
@@ -48,11 +39,10 @@ function passChangeCount(pass) {
     if (pass.length > 20) {
         count += pass.length - 20;
     }
-
-    return count
+    return count;
 }
 
-console.log(passChangeCount(pass1))
-console.log(passChangeCount(pass2))
-console.log(passChangeCount(pass3))
-console.log(passChangeCount(pass4))
+console.log(passChangeCount(pass1));
+console.log(passChangeCount(pass2));
+console.log(passChangeCount(pass3));
+console.log(passChangeCount(pass4));

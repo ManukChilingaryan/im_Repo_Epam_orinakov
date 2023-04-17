@@ -32,19 +32,19 @@ function noNumStr (str) {
 function revertToArray (str) { 
     const strArr = [];
     let word = '';
-        for (let i = 0; i < str.length; i++) {
-            if (str[i] !== ' ') {
-                word += str[i];
-            } else if (word.trim()) {
-                strArr.push(word);
-                word = '';
-            }
-        }
-        if (word){
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] !== ' ') {
+            word += str[i];
+        } else if (word.trim()) {
             strArr.push(word);
+            word = '';
         }
-        return strArr;
     }
+    if (word){
+        strArr.push(word);
+    }
+    return strArr;
+}
 
 // 4. function for swaping places of elements in a given array
 function swapPlace (arr, index) {
