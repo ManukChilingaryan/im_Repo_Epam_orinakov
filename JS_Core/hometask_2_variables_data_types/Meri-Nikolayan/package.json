@@ -1,11 +1,11 @@
 {
-  "name": "hambarcum-khachatrian",
+  "name": "meri-nikolayan",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Meri.Nikolayan.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "HambarcumsScript": "node HambarcumKhachatrian.js"
+    "MeriScript": "node MeriNikolayan.js"
   },
   "keywords": [],
   "author": "",
