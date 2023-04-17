@@ -43,7 +43,7 @@ console.log(addOneMultTwo(5)) ➞ ?
 We have the following arrays
 ```ruby
 color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow “]; 
-o = [“th","st","nd","rd"]
+position = [“th","st","nd","rd"]
 ```
 Write a JavaScript program to display the colors in the following way.
 
