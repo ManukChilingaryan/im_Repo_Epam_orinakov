@@ -177,20 +177,24 @@ and the `gender` property should be limited to `male`, `female`, or `other`.
 
 **Bonus Task**
 
-## 11. CALL(), APPLY(), BIND() 
+## 11 CALL(), APPLY(), BIND() 
 
 ## Note: Useful links for self-study for bonus task
-[Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
-[Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
-[Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+1. [Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
-##More
-[w3School: bind](https://www.w3schools.com/js/js_function_bind.asp)
-[w3School: call](https://www.w3schools.com/js/js_function_call.asp)
-[w3School: apply](https://www.w3schools.com/js/js_function_apply.asp)
+2. [Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+
+3. [Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 
 
-##11.1 Using CALL()
+4. [w3School: Bind](https://www.w3schools.com/js/js_function_bind.asp)
+
+5. [w3School: Call](https://www.w3schools.com/js/js_function_call.asp)
+
+6. [w3School: Apply](https://www.w3schools.com/js/js_function_apply.asp)
+
+
+###11.1 Using CALL()
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -198,7 +202,7 @@ You have to write the code depending on the requirement
 2. Define an object with a property that will be used as the value of `this`.
 3. Invoke the function using the `call()` method and pass the object as the first argument.
 
-##11.2 Using APPLY( )
+###11.2 Using APPLY( )
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -206,7 +210,7 @@ You have to write the code depending on the requirement
 2. Define an array of values that will be passed to the function as arguments.
 3. Invoke the function using the `apply()` method and pass `null` as the value of `this` and the `array` of arguments as the second argument.
 
-##11.3 Using BIND( )
+###11.3 Using BIND( )
 You have to write the code depending on the requirement
 
 **Requirements:**
