@@ -194,7 +194,7 @@ and the `gender` property should be limited to `male`, `female`, or `other`.
 6. [w3School: Apply](https://www.w3schools.com/js/js_function_apply.asp)
 
 
-###11.1 Using CALL()
+## 11.1 Using CALL()
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -202,7 +202,7 @@ You have to write the code depending on the requirement
 2. Define an object with a property that will be used as the value of `this`.
 3. Invoke the function using the `call()` method and pass the object as the first argument.
 
-###11.2 Using APPLY( )
+## 11.2 Using APPLY( )
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -210,7 +210,7 @@ You have to write the code depending on the requirement
 2. Define an array of values that will be passed to the function as arguments.
 3. Invoke the function using the `apply()` method and pass `null` as the value of `this` and the `array` of arguments as the second argument.
 
-###11.3 Using BIND( )
+## 11.3 Using BIND( )
 You have to write the code depending on the requirement
 
 **Requirements:**
