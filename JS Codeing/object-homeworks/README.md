@@ -145,7 +145,7 @@ You have to write the code depending on the requirement
 2. The program must use the car object's methods to change the car's mileage and color.
 3. The program must output the car's updated mileage and color to the console.
 
-## 9.1 CONSTRUCTOR FUNCTION
+## 9 CONSTRUCTOR FUNCTION
 You have to write the code depending on the requirement
 
 **Requirements:**
@@ -156,44 +156,7 @@ You have to write the code depending on the requirement
 5. Access the `name`, `age` and `occupation` properties of `person1` using dot notation and log them to the console to verify that they have been set correctly.
 6. Call `sayHello` method of `person1` to log a greeting message to the console that includes the `name` and `age` properties of the object.
 
-## 9.2 CONSTRUCTOR FUNCTION
-
-**Requirements:**
-1. Modify `Person` constructor function to include a `gender` property, which defaults value is `Unknown` if not specified.
-2. Define a method called `getOccupationLength` inside Person constructor function that returns the length of the `occupation` string.
-3. Create a new `Person` object called `person2` with the values `Bob`, `40`, `Accountant` and `male` for the `name`, `age`, `occupation` and `gender` properties, respectively.
-4. Call `getOccupationLength` method of `person1` and `person2` and log the result to the console to verify that it works correctly.
-5. Define a static method called `getAverageAge` inside `Person constructor` function that takes an array of `Person` objects and returns the average age of those objects.
-6. Create an array called `personArray` that contains `person1` and `person`.
-7. Call the `getAverageAge` method of `Person` and pass the `personArray` array to get the average age of the `Person` objects in the array.
-
-## 10. CALL(), APPLY(), BIND() 
-
-##10.1 Using CALL()
-You have to write the code depending on the requirement
-
-**Requirements:**
-1. Define a function that uses the `this` keyword.
-2. Define an object with a property that will be used as the value of `this`.
-3. Invoke the function using the `call()` method and pass the object as the first argument.
-
-##10.2 Using APPLY( )
-You have to write the code depending on the requirement
-
-**Requirements:**
-1. Define a function that takes multiple arguments.
-2. Define an array of values that will be passed to the function as arguments.
-3. Invoke the function using the `apply()` method and pass `null` as the value of `this` and the `array` of arguments as the second argument.
-
-##10.3 Using BIND( )
-You have to write the code depending on the requirement
-
-**Requirements:**
-1. Define an object with a method that uses the `this` keyword.
-2. Use the `bind()` method to create a new function with the object as the value of `this`.
-2. Invoke the new function to execute the method with the object as the value of `this`.
-
-## 11 Getter and Setter Methods
+## 10 Getter and Setter Methods
 **Description:**
 
 Create an object called `person` that represents a person with properties like `name`, `age`, and `gender`.
@@ -210,3 +173,43 @@ and the `gender` property should be limited to `male`, `female`, or `other`.
 5. For the "age" property, ensure that only positive integer values are accepted.
 6. For the "gender" property, ensure that only "male", "female", or "other" values are accepted.
 7. Test the getter and setter methods by setting and retrieving values for each property in the "person" object.
+
+
+**Bonus Task**
+
+## 11. CALL(), APPLY(), BIND() 
+
+## Note: Useful links for self-study for bonus task
+[Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+[Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+[Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+
+##More
+[w3School: bind](https://www.w3schools.com/js/js_function_bind.asp)
+[w3School: call](https://www.w3schools.com/js/js_function_call.asp)
+[w3School: apply](https://www.w3schools.com/js/js_function_apply.asp)
+
+
+##11.1 Using CALL()
+You have to write the code depending on the requirement
+
+**Requirements:**
+1. Define a function that uses the `this` keyword.
+2. Define an object with a property that will be used as the value of `this`.
+3. Invoke the function using the `call()` method and pass the object as the first argument.
+
+##11.2 Using APPLY( )
+You have to write the code depending on the requirement
+
+**Requirements:**
+1. Define a function that takes multiple arguments.
+2. Define an array of values that will be passed to the function as arguments.
+3. Invoke the function using the `apply()` method and pass `null` as the value of `this` and the `array` of arguments as the second argument.
+
+##11.3 Using BIND( )
+You have to write the code depending on the requirement
+
+**Requirements:**
+1. Define an object with a method that uses the `this` keyword.
+2. Use the `bind()` method to create a new function with the object as the value of `this`.
+2. Invoke the new function to execute the method with the object as the value of `this`.
