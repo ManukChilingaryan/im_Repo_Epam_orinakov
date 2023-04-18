@@ -193,3 +193,20 @@ You have to write the code depending on the requirement
 2. Use the `bind()` method to create a new function with the object as the value of `this`.
 2. Invoke the new function to execute the method with the object as the value of `this`.
 
+## 11 Getter and Setter Methods
+**Description:**
+
+Create an object called `person` that represents a person with properties like `name`, `age`, and `gender`.
+Configure `getter` and `setter` methods for each `property` within the object itself,
+The `name` property should be a string, the `age` property should be an integer,
+and the `gender` property should be limited to `male`, `female`, or `other`.
+
+**Tasks to be Completed:**
+
+1. Create an object called "person" with the following properties: "name", "age", and "gender".
+2. Configure a getter method for each property to retrieve their values from the object.
+3. Configure a setter method for each property to set their values within the object and perform data validation.
+4. For the "name" property, ensure that only string values are accepted.
+5. For the "age" property, ensure that only positive integer values are accepted.
+6. For the "gender" property, ensure that only "male", "female", or "other" values are accepted.
+7. Test the getter and setter methods by setting and retrieving values for each property in the "person" object.
