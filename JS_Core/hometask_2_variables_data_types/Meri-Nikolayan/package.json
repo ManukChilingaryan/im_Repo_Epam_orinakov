@@ -1,0 +1,13 @@
+{
+  "name": "meri-nikolayan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Meri.Nikolayan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "MeriScript": "node MeriNikolayan.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

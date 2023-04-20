@@ -43,7 +43,7 @@ console.log(addOneMultTwo(5)) ➞ ?
 We have the following arrays
 ```ruby
 color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow “]; 
-o = [“th","st","nd","rd"]
+position = [“th","st","nd","rd"]
 ```
 Write a JavaScript program to display the colors in the following way.
 
@@ -129,7 +129,7 @@ You have to write the code depending on the requirement.
 
 If `str` is `“+++++* abcdemmmmmm”` then the second string in this case matches the pattern, so your program should return the string `false`.
 
-If `str` is `“**+*{5} mmmrrrkbb”` then the second string does not match the pattern, your program should return the string `true`.
+If `str` is `“**+*{2} mmmrrrkbb”` then the second string does not match the pattern, your program should return the string `true`.
 
 **USEFUL LINKS**
 
